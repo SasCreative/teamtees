@@ -21,7 +21,7 @@ if ( ! function_exists( 'teamtees_scripts' ) ) {
 		
 
 		wp_enqueue_script( 'font-awsome', get_template_directory_uri() . '/vender/fontawesome/js/all.min.js', array(), '5.1' , true );
-		wp_enqueue_script( 'jquery-scripts', get_template_directory_uri() . '/vender/jquery/jquery.js', array(),'3.4.1', false);
+		// wp_enqueue_script( 'jquery-scripts', get_template_directory_uri() . '/vender/jquery/jquery.js', array(),'3.4.1', false);
 		wp_enqueue_script( 'popper-scripts', get_template_directory_uri() . '/vender/popper/popper.min.js', array(),'1.1', false);
 		wp_enqueue_script( 'bootstrap-scripts', get_template_directory_uri() . '/vender/bootstrap/js/bootstrap.min.js', array(),'3.1', false);
 		wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/js/theme.js', array() , true );
