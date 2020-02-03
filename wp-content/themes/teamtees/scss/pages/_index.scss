@@ -150,31 +150,36 @@
         margin-bottom: 33px;
     }
 
-    h3{
+    h3 {
         font-size: 40px;
     }
-  
+
     ul#pills-tab {
         margin-top: 25px;
     }
+
     p {
         font-size: 25px;
     }
+
     a {
         color: #000;
         font-size: 20px;
         padding: 6px 15px;
     }
-    a:hover{
+
+    a:hover {
         text-decoration: none;
     }
+
     img {
         max-width: 100%;
         margin-top: -48%;
         padding: 40px;
     }
+
     .nav-item {
-        a{
+        a {
             background: $primary_color;
             padding: 6px 18px;
             margin-right: 12px;
@@ -182,47 +187,139 @@
             border-radius: 3px;
             transition: 0.6s;
         }
-        a:hover{
+
+        a:hover {
             text-decoration: none;
         }
     }
 }
 
 #index_about {
-   background: url('../img/aboutbg.png');
-   background-size: cover;
-   background-repeat: no-repeat;
-   padding: 5% 0;
+    background: url('../img/aboutbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5% 0;
 
-   iframe {
-    border: 7px solid #fff;
-    border-radius: 10px;
-    width:100%;
-     height:350px;
+    iframe {
+        border: 7px solid #fff;
+        border-radius: 10px;
+        width: 100%;
+        height: 350px;
+    }
+
+    h2 {
+        font-size: 60px;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+    .index_about_right {
+        padding-left: 40px;
+        padding-right: 40px;
+
+        p {
+            font-size: 20px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        a {
+            color: $black;
+            font-size: 22px;
+            font-style: italic;
+            transition: 0.6s;
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -ms-transition: 0.6s;
+            -o-transition: 0.6s;
+        }
+    }
+
 }
-h2 {
-    font-size: 60px;
-    font-weight: 900;
-    font-style: italic;
-}
-.index_about_right {
-    padding-left: 40px;
-    padding-right: 40px;
+
+#review {
+    padding: 5% 0;
+
+    h2 {
+        text-align: center;
+        font-style: italic;
+        font-size: 60px;
+    }
+
     p {
+        font-style: italic;
         font-size: 20px;
     }
-    h2{
-        margin-top: 20px;
-    }a{
-    color: $black;
-    font-size: 22px;
-    font-style: italic;
-    transition: 0.6s;
-    -webkit-transition: 0.6s;
-    -moz-transition: 0.6s;
-    -ms-transition: 0.6s;
-    -o-transition: 0.6s;
+
+
+    .review_card {
+        width: 100%;
+        display: flex;
+        max-width: 900px;
+        margin: 30px auto;
+
+        .review_card_l {
+            padding: 0 50px;
+
+            h4 {
+                text-align: center;
+                margin-top: 14px;
+                margin-bottom: 5px;
+                font-size: 20px;
+            }
+
+            h5 {
+                text-align: center;
+                font-weight: 300;
+                font-size: 14px;
+                margin-top: 0;
+            }
+
+            .review_img {
+                max-width: 180px;
+                max-height: 180px;
+                overflow: hidden;
+                border-radius: 100%;
+                border: 5px solid $primary_color;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+        }
+
+        .review_card_r {
+            h3 {
+                font-size: 30px;
+                font-style: italic;
+                margin-top: 20px;
+            }
+            svg {
+                font-size: 30px;
+                color: $primary_color;
+                margin-left: 5px;
+                margin-bottom: 15px;
+                margin-top: 5px;
+            }
+        }
+
+    }
+
+
+
+.carousel-control-next-icon:after
+{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
+  font-size: 20px;
+  color:#ccc;
 }
+
+.carousel-control-prev-icon:after {
+   
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
+  font-size: 20px;
+  color: #ccc;
 }
 
 }
