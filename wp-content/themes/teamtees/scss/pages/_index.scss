@@ -140,3 +140,50 @@
     }
 
 }
+
+#index_steps {
+    padding: 6% 0;
+
+    h2 {
+        font-size: 60px;
+        margin-top: 20%;
+        margin-bottom: 33px;
+    }
+
+    h3{
+        font-size: 40px;
+    }
+  
+    ul#pills-tab {
+        margin-top: 25px;
+    }
+    p {
+        font-size: 25px;
+    }
+    a {
+        color: #000;
+        font-size: 20px;
+        padding: 6px 15px;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    img {
+        max-width: 100%;
+        margin-top: -48%;
+        padding: 40px;
+    }
+    .nav-item {
+        a{
+            background: $primary_color;
+            padding: 6px 18px;
+            margin-right: 12px;
+            color: #fff;
+            border-radius: 3px;
+            transition: 0.6s;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    }
+}
