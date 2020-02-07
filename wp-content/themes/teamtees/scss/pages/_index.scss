@@ -295,6 +295,7 @@
                 font-style: italic;
                 margin-top: 20px;
             }
+
             svg {
                 font-size: 30px;
                 color: $primary_color;
@@ -308,18 +309,83 @@
 
 
 
-.carousel-control-next-icon:after
-{
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
-  font-size: 20px;
-  color:#ccc;
+    .carousel-control-next-icon:after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f054";
+        font-size: 20px;
+        color: #ccc;
+    }
+
+    .carousel-control-prev-icon:after {
+
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f053";
+        font-size: 20px;
+        color: #ccc;
+    }
+
 }
 
-.carousel-control-prev-icon:after {
-   
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
-  font-size: 20px;
-  color: #ccc;
-}
+
+#footer_oder {
+    width: 100%;
+    display: -webkit-inline-box;
+
+    .left_oder {
+        width: 50%;
+        background: $primary_color;
+        padding: 3% 10% 3% 10%;
+        color: $white;
+
+        p {
+            font-size: 25px;
+            margin-bottom: 7px;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        a {
+            color: $white;
+            font-style: italic;
+            padding-right: 10px;
+
+        }
+    }
+
+    .right_oder {
+        width: 50%;
+        background: $yellow;
+        padding: 2% 10% 2% 10%;
+        color: $secandery_color;
+
+        p {
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        a {
+            font-size: 20px;
+            background: $secandery_color;
+            padding: 7px 20px;
+            color: #fff;
+            font-style: italic;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: 600;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+
 
 }

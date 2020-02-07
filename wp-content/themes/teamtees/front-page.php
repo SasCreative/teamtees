@@ -6,4 +6,5 @@
 <?php get_template_part('page-templates/index/index', 'steps'); ?>
 <?php get_template_part('page-templates/index/index', 'about'); ?>
 <?php get_template_part('page-templates/index/index', 'review'); ?>
+<?php get_template_part('page-templates/index/index', 'oder'); ?>
 <?php get_footer(); ?>

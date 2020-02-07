@@ -9,16 +9,16 @@
 
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item">
-                                <a class="active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
-                                    role="tab" aria-controls="pills-home" aria-selected="true">step 1</a>
+                                <a class="active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                                    aria-controls="pills-home" aria-selected="true">step 1</a>
                             </li>
                             <li class="nav-item">
-                                <a class="" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
-                                    role="tab" aria-controls="pills-profile" aria-selected="false">step 2</a>
+                                <a class="" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">step 2</a>
                             </li>
                             <li class="nav-item">
-                                <a class="" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
-                                    role="tab" aria-controls="pills-contact" aria-selected="false">step 3</a>
+                                <a class="" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">step 3</a>
                             </li>
                         </ul>
                     </div>
@@ -28,7 +28,8 @@
                         aria-labelledby="pills-home-tab">
                         <div class="row">
                             <div class="col-md-6">
-                                <img class="img-fluid mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/tshirt-line.png" alt="">
+                                <img class="img-fluid mx-auto d-block"
+                                    src="<?php echo get_template_directory_uri(); ?>/img/tshirt-line.png" alt="">
                             </div>
                             <div class="col-md-6">
                                 <h3>
@@ -43,7 +44,8 @@
                     </div>
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                         <div class="row">
-                            <div class="col-md-6"><img class="img-fluid mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/tshirt-line.png" alt="">
+                            <div class="col-md-6"><img class="img-fluid mx-auto d-block"
+                                    src="<?php echo get_template_directory_uri(); ?>/img/tshirt-line.png" alt="">
                             </div>
                             <div class="col-md-6">
                                 <h3>
@@ -58,7 +60,8 @@
                     </div>
                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                         <div class="row">
-                            <div class="col-md-6"><img class="img-fluid mx-auto d-block" src="<?php echo get_template_directory_uri(); ?>/img/tshirt-line.png" alt="">
+                            <div class="col-md-6"><img class="img-fluid mx-auto d-block"
+                                    src="<?php echo get_template_directory_uri(); ?>/img/tshirt-line.png" alt="">
                             </div>
                             <div class="col-md-6">
                                 <h3>
