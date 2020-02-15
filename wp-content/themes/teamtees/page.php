@@ -14,44 +14,27 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
-
-$container = get_theme_mod( 'teamtees_container_type' );
-
 ?>
-
-<div class="wrapper" id="page-wrapper">
-
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
-
+<div class="page_titel">
+	<div class="container">
 		<div class="row">
+			<div class="col-md-12">
+<span>teamtees.co.nz <?php wp_title(); ?></span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+		<?php while ( have_posts() ) : the_post(); ?>
 
-			<!-- Do the left sidebar check -->
-			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
+		<?php get_template_part( 'loop-templates/content', 'page' ); ?>
 
-			<main class="site-main" id="main">
+		<?php endwhile; // end of the loop. ?>
+		</div>
+	</div>
 
-				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php get_template_part( 'loop-templates/content', 'page' ); ?>
-
-					<?php
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-					?>
-
-				<?php endwhile; // end of the loop. ?>
-
-			</main><!-- #main -->
-
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
-
-		</div><!-- .row -->
-
-	</div><!-- #content -->
-
-</div><!-- #page-wrapper -->
+</div>
 
 <?php get_footer();

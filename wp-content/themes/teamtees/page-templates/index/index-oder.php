@@ -17,6 +17,6 @@
     <div class="right_oder">
         <h2>custome oder</h2>
         <p>Lorem Ipsum is sim¯ply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
-        <a href="">quick quote &nbsp;	&nbsp;<i class="fas fa-arrow-right"></i></a>
+        <a href="">quick quote &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
     </div>
 </section>

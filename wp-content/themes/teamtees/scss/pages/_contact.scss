@@ -1,0 +1,66 @@
+.get_in_thought {
+    padding:5% 10%;
+    margin-left: 30px;
+    background:rgba(0, 0, 0, 0.02);
+    p{
+        margin-bottom: 25px;
+    }
+
+    .nav{
+        margin-top: 25x;
+    }
+
+    li.nav-item_r {
+        margin-bottom: 25px;
+
+        display: flex;
+
+        svg {
+            margin-right: 15px;
+            font-size: 25px;
+            color: $primary_color;
+        }
+
+        address,a {
+            font-size: 21px;
+            margin-bottom: 0;
+            color: #757575;
+           
+        }
+        .table {
+            color: #a9a9a9;
+        
+        }
+        .table td, .table th {
+            padding: .50rem;
+        }
+
+    }
+
+}
+.map_location {
+    iframe {
+        margin-top: 65px;
+        width: 100%;
+    }
+}
+
+.page-template-contact-page-php {
+    #footer_oder {
+        margin-top:-5px;
+    }
+
+}
+
+
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    font-size: 0.8em;
+    font-weight: normal;
+    display: block;
+    margin-top: 4px;
+}
+
+.form-control {
+    text-transform: lowercase;
+}

@@ -10,6 +10,7 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 ?>
+<?php get_template_part('page-templates/index/index', 'oder'); ?>
 <footer id="footer">
     <div class="container">
         <div class="row justify-content-center">
@@ -24,39 +25,39 @@ defined( 'ABSPATH' ) || exit;
                 <h2>Our link</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a href="#">terms & conditions</a>
+                        <a href="<?php echo esc_url( get_page_link( 31 ) ); ?>">terms & conditions</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">f & q </a>
+                        <a href="<?php echo esc_url( get_page_link( 38 ) ); ?>">f & q </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">privacy Policy</a>
+                        <a href="<?php echo esc_url( get_page_link( 3 ) ); ?>">privacy Policy</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">blog</a>
+                        <a href="<?php echo esc_url( get_page_link( 61 ) ); ?>">blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">quick oder</a>
+                        <a href="<?php echo esc_url( get_page_link( 00 ) ); ?>">quick oder</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">contact Us</a>
+                        <a href="<?php echo esc_url( get_page_link( 41 ) ); ?>">contact Us</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#">15 woking days</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class="col-lg-2">
                 <h2>Our product</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a href="#">tt-shirt</a>
+                        <a href="<?php echo esc_url( get_page_link( 51 ) ); ?>">t-shirt</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">hoodies </a>
+                        <a href="<?php echo esc_url( get_page_link( 49 ) ); ?>">hoodies </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">caps</a>
+                        <a href="<?php echo esc_url( get_page_link( 53 ) ); ?>">caps</a>
                     </li>
 
                 </ul>
